@@ -1,7 +1,8 @@
 from cx_Freeze import setup, Executable
 
 """
-Настройки для сборки исполняемого файла в windows
+Настройки для сборки исполняемого файла в Windows
+при помощи cx_Freeze
 """
 
 executables = [Executable('book_titles.py')]
